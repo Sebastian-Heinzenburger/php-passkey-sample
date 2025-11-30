@@ -1,0 +1,14 @@
+{
+    "name": "webauthn-php/app",
+    "description": "A simple WebAuthn demo project using PHP.",
+    "require": {
+        "web-auth/webauthn-lib": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
