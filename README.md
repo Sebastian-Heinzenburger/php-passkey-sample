@@ -2,23 +2,6 @@
 
 This project is a demonstration of using the WebAuthn PHP library for user registration and authentication via WebAuthn. It provides a simple web application that allows users to register and log in using their WebAuthn-compatible devices.
 
-## Project Structure
-
-```
-webauthn-php
-├── src
-│   ├── register.php      # Handles user registration and credential verification
-│   ├── login.php         # Manages user login and authentication assertion verification
-│   └── config.php        # Configuration settings for the WebAuthn PHP library
-├── public
-│   ├── index.php         # Entry point for the web application with HTML structure
-│   └── js
-│       └── webauthn.js   # JavaScript functions for WebAuthn operations
-├── vendor                 # Contains dependencies installed via Composer
-├── composer.json          # Composer configuration file specifying project dependencies
-└── README.md              # Documentation for the project
-```
-
 ## Installation
 
 1. Clone the repository:
@@ -48,7 +31,3 @@ webauthn-php
 - PHP 7.2 or higher
 - Composer
 - A WebAuthn-compatible device (e.g., security key, biometric device)
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
