@@ -24,7 +24,6 @@
 
     <div class="section">
         <h2>Login</h2>
-        <input type="text" id="login-username" placeholder="Enter username" />
         <button onclick="login()">Login with WebAuthn</button>
         <div id="login-result"></div>
     </div>
